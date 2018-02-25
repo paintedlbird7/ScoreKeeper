@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="0dp"
+        android:src="@drawable/basketball_generic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Team A"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <TextView
+
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:paddingBottom="24dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="55sp" />
+
+            <Button
+                android:drawableBottom="@drawable/ic_filter_3_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:onClick="addThreeForTeamA"
+                android:text="o o o" />
+
+            <Button
+                android:drawableBottom="@drawable/ic_filter_2_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:onClick="addTwoForTeamA"
+                android:text="o o" />
+
+            <Button
+                android:drawableBottom="@drawable/ic_filter_1_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:onClick="addOneForTeamA"
+                android:text="o" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Team B"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:paddingBottom="24dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="55sp" />
+
+            <Button
+                android:drawableBottom="@drawable/ic_filter_3_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:onClick="addThreeForTeamB"
+                android:text="o o o" />
+
+            <Button
+                android:drawableBottom="@drawable/ic_filter_2_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:onClick="addTwoForTeamB"
+                android:text="o o" />
+
+            <Button
+                android:drawableBottom="@drawable/ic_filter_1_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:onClick="addOneForTeamB"
+                android:text="o" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:drawableBottom="@drawable/ic_refresh_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:onClick="resetScore"
+        android:text="Reset" />
+
+</RelativeLayout>
