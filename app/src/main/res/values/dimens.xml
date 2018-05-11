@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingT">0dp</dimen>
+    <dimen name="layoutW">0dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="textS">26sp</dimen>
+    <dimen name="paddingB">24dp</dimen>
+    <dimen name="textS2">55sp</dimen>
+    <dimen name="layoutB">8dp</dimen>
+    <dimen name="layoutMR">14dp</dimen>
+    <dimen name="layoutMR2">14dp</dimen>
+    <dimen name="layoutML">14dp</dimen>
+    <dimen name="layoutMB">8dp</dimen>
+    <dimen name="layoutML2">14dp</dimen>
+    <dimen name="layoutMB2">8dp</dimen>
+    <dimen name="layoutMB3">14dp</dimen>
+    <dimen name="layoutML3">14dp</dimen>
+    <dimen name="layoutW2">0dp</dimen>
+    <dimen name="padding2">16dp</dimen>
+    <dimen name="textS3">26sp</dimen>
+    <dimen name="fontF4">24dp</dimen>
+    <dimen name="textS4">55sp</dimen>
+    <dimen name="layoutMB4">8dp</dimen>
+    <dimen name="layoutMB5">14dp</dimen>
+    <dimen name="layoutM">14dp</dimen>
+    <dimen name="layoutMB6">8dp</dimen>
+    <dimen name="layoutML5">14dp</dimen>
+    <dimen name="layoutMR5">14dp</dimen>
+    <dimen name="layoutMB7">8dp</dimen>
+    <dimen name="layoutML6">14dp</dimen>
+    <dimen name="layoutMR6">14dp</dimen>
+    <dimen name="layoutMB8">8dp</dimen>
+    <dimen name="layoutML8">44dp</dimen>
+    <dimen name="layoutMR8">44dp</dimen>
+</resources>

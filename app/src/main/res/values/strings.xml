@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Score Keeper</string>
+    <string name="team_a">Team A</string>
+    <string name="fontF">sans-serif-light</string>
+    <string name="text">0</string>
+    <string name="o_o_o">o o o</string>
+    <string name="o_o">o o</string>
+    <string name="o">o</string>
+    <string name="fontF2">sans-serif</string>
+    <string name="team_b">Team B</string>
+    <string name="fontF4">sans-serif-light</string>
+    <string name="_0">0</string>
+    <string name="o_o_o2">o o o</string>
+    <string name="o_o2">o o</string>
+    <string name="o2">o</string>
+    <string name="reset">Reset</string>
 </resources>
