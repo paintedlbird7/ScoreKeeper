@@ -1,1 +1,1 @@
-# A ScoreKeeper for basketball game
+# A ScoreKeeper Android App for basketball game
